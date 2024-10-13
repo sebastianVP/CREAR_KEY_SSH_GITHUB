@@ -12,9 +12,9 @@ Comandos para una nueva configuracion en una PC, conexion git.
 - Le damos a las opciones siguientes, yes
 - Luego:
     
-    $eval "$(ssh-agent -s)"
+     $ eval "$(ssh-agent -s)"
     
-    $ssh-add ~/.ssh/id_rsa
+     $ ssh-add ~/.ssh/id_rsa
     
 - Mostramos el contenido del archivo id_rsa.pub
 $cat ~/.ssh/id_rsa.pub
